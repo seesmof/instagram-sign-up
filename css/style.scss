@@ -5,9 +5,9 @@
   --wht: #fff;
   --gry: #dbdbdb;
   --fb: #0095f6;
-  --fb-hover: rgba(0, 148, 246, 0.8);
+  --fb-hover: rgba(0, 148, 246, 0.7);
   --txt-act: #8e8e8e;
-  --txt: #000;
+  --txt-act-hover: rgba(142, 142, 142, 0.7);
 }
 
 * {
@@ -31,7 +31,11 @@ main {
     background: var(--wht);
     border: 1px solid var(--gry);
     width: 350px;
-    margin: 2rem auto;
+    margin: 7px auto;
+
+    &:first-of-type {
+      margin-top: 2rem;
+    }
 
     .container-top {
       .img {
@@ -81,8 +85,103 @@ main {
           margin: 3px;
           padding: 0.6rem;
           font-size: 12px;
+
+          &:first-of-type {
+            margin-top: 0.7rem;
+          }
+        }
+
+        .text-under {
+          font-size: 12px;
+          width: 268px;
+          margin: 0.8rem auto;
+          color: var(--txt-act);
+          a {
+            text-decoration: none;
+            font-weight: bold;
+            color: var(--txt-act);
+
+            &:hover {
+              color: var(--txt-act-hover);
+            }
+          }
+
+          .eula {
+            margin-top: 1rem;
+          }
+        }
+
+        .button {
+          margin: 0.1rem auto;
+          margin-bottom: 3rem;
+          width: 268px;
+          background: var(--fb);
+          border: none;
+          border-radius: 4px;
+          padding: 0.3rem;
+          color: var(--wht);
+          font-weight: 600;
+          font-size: 14px;
+          text-align: center;
+
+          &:hover {
+            background: var(--fb-hover);
+          }
         }
       }
+    }
+
+    .container-login {
+      padding: 1.6rem;
+      font-size: 14px;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          color: var(--fb-hover);
+        }
+      }
+    }
+  }
+
+  .container-app {
+    .text {
+      margin: 1rem;
+    }
+
+    .image {
+      display: inline;
+
+      img {
+        height: 44px;
+      }
+    }
+  }
+}
+
+/* footer */
+
+footer {
+  color: var(--txt-act);
+  font-size: 12px;
+  margin-top: 2rem;
+
+  .github {
+    font-weight: bold;
+  }
+
+  .copyright {
+    margin: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0.5rem;
+
+    &:hover {
+      color: var(--txt-act-hover);
     }
   }
 }
