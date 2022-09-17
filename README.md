@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNGOcvEiuYSO2ePt9TspDt0-sNI5CXZ88loDydub08P7wmVUlD4iAdazkUHieCLucEnc_FIrsPi2maLa6Qu79t16XKK-SvKDWnGVFA1trlBnqo2_g_Pd2q877SO5lwsC9H8vid81HXyf0KuJUNbGUKnQxI4Km__ZS1ozFCSUe1VjzzPRSG5u7kbGO9/s1000/R1d12ac059f3539d1aa1f1a5d211077df.gif" alt="Project logo"></a>
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="Project logo" style="width:64px"></a>
 </p>
 
 <h3 align="center">Instagram Sing Up Page</h3>
@@ -42,7 +42,7 @@ Simple one-page HTML and CSS project of an Instagram Sing Up Page. Made in free 
 - [HTML](https://www.w3.org/html/) - Markup Language
 - [CSS](https://www.w3schools.com/css/) - Styling Language
 - [SASS](https://sass-lang.com/) - CSS Pre-Processor
-- [Bootstrap](https://getbootstrap.com/) - CSS Framework
+- [TailwindCSS](https://tailwindcss.com/) - CSS Framework
 
 ## ✍️ Authors <a name = "authors"></a>
 
