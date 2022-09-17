@@ -12,7 +12,7 @@
     <link rel="icon" href="https://img.icons8.com/ios-filled/50/000000/source-code.png">
 
     <!-- title -->
-    <title>Реєстрація | seesmof</title>
+    <title>Sign Up | seesmof</title>
 
     <!-- links -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.27.0/dist/full.css" rel="stylesheet" type="text/css" />
@@ -35,69 +35,48 @@
     <!-- SEC upper -->
     <section class="bg-inherit flex flex-col items-center justify-center text-center">
         <!-- SUBSEC main card -->
-        <section class="md:bg-white md:border mt-9 w-[350px]">
+        <section class="sm:bg-white sm:border mt-12 sm:mt-28 w-[350px]">
             <div class="container mx-auto w-[90%] p-6">
                 <!-- SEC header -->
-                <header class="flex flex-col items-center md:mt-4">
+                <header class="flex flex-col items-center py-4 pb-12">
                     <a href="./index.html">
                         <img src="./img/insta_logo.png" alt="Instagram Logo.">
                     </a>
-
-                    <h2 class="font-medium text-neutral-500 py-3 leading-5">
-                        Зареєструйтеся, щоб переглядати світлини та відео від друзів
-                    </h2>
-
-                    <a href="#"
-                        class="bg-[#0095f6] hover:bg-[#0095f690] transition-all w-full rounded no-underline py-1 text-white font-medium">
-                        <i class="fa-brands fa-square-facebook"></i> Увійти через Facebook
-                    </a>
                 </header>
                 <!-- /SEC header -->
-                <div class="divider my-4 text-neutral-400 text-sm font-medium">OR</div>
                 <!-- SEC form -->
                 <form class="flex flex-col gap-y-2">
                     <input type="email"
-                        class="bg-inherit md:bg-neutral-100/50 border-none rounded-sm ring-1 ring-neutral-300 placeholder:text-neutral-400 w-full peer text-sm focus:outline-none focus:border-none focus:ring-neutral-400"
+                        class="bg-inherit sm:bg-neutral-100/50 border-none rounded-sm ring-1 ring-neutral-300 placeholder:text-neutral-400 w-full peer text-sm focus:outline-none focus:border-none focus:ring-neutral-400"
                         placeholder="Номер мобільного телефону або електронна пошта" id="email" required>
-                    <input type="text"
-                        class="bg-inherit md:bg-neutral-100/50 border-none rounded-sm ring-1 ring-neutral-300 placeholder:text-neutral-400 w-full peer text-sm focus:outline-none focus:border-none focus:ring-neutral-400"
-                        placeholder="Повне ім'я" id="full_name" required>
-                    <input type="text"
-                        class="bg-inherit md:bg-neutral-100/50 border-none rounded-sm ring-1 ring-neutral-300 placeholder:text-neutral-400 w-full peer text-sm focus:outline-none focus:border-none focus:ring-neutral-400"
-                        placeholder="Ім'я користувача" id="username" required>
+
                     <input type="password"
-                        class="bg-inherit md:bg-neutral-100/50 border-none rounded-sm ring-1 ring-neutral-300 placeholder:text-neutral-400 w-full peer text-sm focus:outline-none focus:border-none focus:ring-neutral-400"
+                        class="bg-inherit sm:bg-neutral-100/50 border-none rounded-sm ring-1 ring-neutral-300 placeholder:text-neutral-400 w-full peer text-sm focus:outline-none focus:border-none focus:ring-neutral-400"
                         placeholder="Пароль" id="password" required>
 
-                    <div class="flex flex-col gap-y-4 py-2">
-                        <p class="text-xs w-full text-neutral-400">
-                            Люди, які користуються нашим сервісом, могли завантажити вашу контактну інформацію в
-                            Instagram. <a href="#"
-                                class="font-bold transition-all hover:text-neutral-600">Докладніше</a>
-                        </p>
-                        <p class="text-xs w-full text-neutral-400">
-                            Реєструючись, ви приймаєте наші <a href="#"
-                                class="font-bold transition-all hover:text-neutral-600">Умови</a>, <a href="#"
-                                class="font-bold transition-all hover:text-neutral-600">Політику конфіденційності</a>
-                            і <a href="#" class="font-bold transition-all hover:text-neutral-600">Політику щодо файлів
-                                cookie</a>.
-                        </p>
-
-                        <button
-                            class="bg-[#afdcf9] w-full text-white font-medium py-1 rounded text-sm focus:bg-[#0095f690] hover:bg-[#0095f6] transition-all">Зареєструватися</button>
-                    </div>
+                    <button
+                        class="bg-[#afdcf9] w-full text-white font-medium py-1 rounded text-sm focus:bg-[#0095f690] hover:bg-[#0095f6] transition-all">Увійти</button>
                 </form>
+                <div class="divider my-4 text-neutral-400 text-sm font-medium">OR</div>
+                <div class="flex flex-col gap-y-3">
+                    <a href="#" class="transition-all hover:text-blue-500 no-underline py-1 font-medium text-[#385185]">
+                        <i class="fa-brands fa-square-facebook"></i> Увійти через Facebook
+                    </a>
+                    <a href="#" class="text-xs transition-all hover:text-blue-500">
+                        Забули пароль?
+                    </a>
+                </div>
                 <!-- /SEC form -->
             </div>
         </section>
         <!-- /SUBSEC main card -->
 
         <!-- SUBSEC log in card -->
-        <section class="md:bg-white md:border mt-2 w-[350px]">
-            <div class="container mx-auto w-[90%] p-6">
+        <section class="sm:bg-white sm:border mt-2 w-[350px]">
+            <div class="container mx-auto p-6">
                 <h2 class="text-sm">
-                    У вас є обліковий запис? <a href="./log_in-Ukrainian.html"
-                        class="text-blue-400 transition-all hover:text-blue-500">Увійдіть</a>
+                    Не маєте облікового запису? <a href="./Ukrainian.html"
+                        class="text-blue-400 font-medium transition-all hover:text-blue-500">Зараєструйтеся</a>
                 </h2>
             </div>
         </section>
@@ -126,7 +105,7 @@
         <!-- /SUBSEC get the app -->
 
         <!-- SUBSEC footer -->
-        <section class="mt-2 w-full p-6">
+        <section class="mt-2 sm:mt-16 w-full p-6">
             <div
                 class="container mx-auto text-xs text-neutral-400 flex justify-center items-center flex-wrap gap-x-4 gap-y-2">
                 <a href="#" class="transition-all hover:text-neutral-600">Meta</a>
@@ -150,13 +129,13 @@
                     class="border-none bg-inherit text-sm px-7 focus:ring-0 transition-all hover:text-neutral-600 cursor-pointer">
                     <i class="fas fa-chevron-down"></i>
 
-                    <option value="./ukrainian.html" selected>
+                    <option value="./log_in-Ukrainian.html" selected>
                         Українська
                     </option>
-                    <option value="./index.html">
+                    <option value="./log_in-English.html">
                         English
                     </option>
-                    <option value="./polish.html">
+                    <option value="./log_in-Polish.html">
                         Polski
                     </option>
                 </select>
