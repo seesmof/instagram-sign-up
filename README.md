@@ -35,7 +35,27 @@ Pretty basic project with just a couple of pages, made using TailwindCSS. It inc
 
 - [Live View](https://seesmof.github.io/instagram-sign-up/)
 
-![Website Page](./img/msedge_ZqiNNCvF2j.png)
+![Website Page](./img/Sign-Up-seesmof.png)
+
+---
+
+![Website Page](./img/Log-In-seesmof.png)
+
+---
+
+![Website Page](./img/Sign-Up-seesmof_mobile.png)
+
+---
+
+![Website Page](./img/Log-In-seesmof_mobile.png)
+
+---
+
+![Website Page](./img/Реєстрація-seesmof.png)
+
+---
+
+![Website Page](./img/Zarejestruj-się-seesmof.png)
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
