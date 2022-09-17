@@ -3,7 +3,7 @@
  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="Project logo" style="width:64px"></a>
 </p>
 
-<h3 align="center">Instagram Sing Up Page</h3>
+<h3 align="center">Instagram Sing Up & Log In</h3>
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> Instagram Sing Up Page
+<p align="center"> Instagram Sing Up & Log In Pages Clone
     <br>
 </p>
 
@@ -29,7 +29,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Simple one-page HTML and CSS project of an Instagram Sing Up Page. Made in free time using HTML, CSS, SASS and Bootstrap
+Pretty basic project with just a couple of pages, made using TailwindCSS. It includes sign up and log in pages of Instagram in three languages: English, Ukrainian and Polish. Everything is interactable, responsive and fully translated.
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
