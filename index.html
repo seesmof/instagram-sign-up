@@ -38,14 +38,17 @@
         <section class="md:bg-white md:border mt-9 w-[350px]">
             <div class="container mx-auto w-[85%] p-6">
                 <!-- SEC header -->
-                <header class="flex flex-col items-center">
-                    <img src="./img/insta_logo.png" alt="Instagram Logo.">
+                <header class="flex flex-col items-center md:mt-4">
+                    <a href="./index.html">
+                        <img src="./img/insta_logo.png" alt="Instagram Logo.">
+                    </a>
 
                     <h2 class="font-medium text-neutral-500 py-3">
                         Sign up to see photos and videos from your friends
                     </h2>
 
-                    <a href="#" class="bg-[#0095f6] w-full rounded no-underline py-1 text-white font-medium">
+                    <a href="#"
+                        class="bg-[#0095f6] hover:bg-[#0095f690] transition-all w-full rounded no-underline py-1 text-white font-medium">
                         <i class="fa-brands fa-square-facebook"></i> Log in with Facebook
                     </a>
                 </header>
@@ -69,11 +72,13 @@
                     <div class="flex flex-col gap-y-4 py-2">
                         <p class="text-xs w-full text-neutral-400">
                             People who use our service may have uploaded your contact information to Instagram. <a
-                                href="#" class="font-bold">Learn More</a>
+                                href="#" class="font-bold transition-all hover:text-neutral-600">Learn More</a>
                         </p>
                         <p class="text-xs w-full text-neutral-400">
-                            By signing up you agree to our <a href="#" class="font-bold">Terms</a>, <a href="#"
-                                class="font-bold">Privacy Policy</a> and <a href="#" class="font-bold">Cookie
+                            By signing up you agree to our <a href="#"
+                                class="font-bold transition-all hover:text-neutral-600">Terms</a>, <a href="#"
+                                class="font-bold transition-all hover:text-neutral-600">Privacy Policy</a> and <a
+                                href="#" class="font-bold transition-all hover:text-neutral-600">Cookie
                                 Policy</a>.
                         </p>
 
@@ -91,7 +96,7 @@
         <section class="md:bg-white md:border mt-2 w-[350px]">
             <div class="container mx-auto w-[85%] p-6">
                 <h2 class="text-sm">
-                    Have an account? <a href="#" class="text-blue-400">Log in</a>
+                    Have an account? <a href="#" class="text-blue-400 transition-all hover:text-blue-500">Log in</a>
                 </h2>
             </div>
         </section>
@@ -105,11 +110,14 @@
                 </h2>
 
                 <div class="flex gap-x-2 py-4">
-                    <a href="#">
-                        <img src="./img/apple.png" alt="Get our app at Apple Store." class="w-40">
+                    <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo" target="_blank">
+                        <img src="./img/apple.png" alt="Get our app at Apple Store."
+                            class="w-40 transition-all hover:scale-105">
                     </a>
-                    <a href="#">
-                        <img src="./img/google.png" alt="Get our app at Google Play Market." class="w-40">
+                    <a target="_blank"
+                        href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DsignupPage%26ig_mid%3D5F09DDCA-F3E8-486F-B9B4-DBD96F391F81%26utm_content%3Dlo%26utm_medium%3Dbadge">
+                        <img src="./img/google.png" alt="Get our app at Google Play Market."
+                            class="w-40 transition-all hover:scale-105">
                     </a>
                 </div>
             </div>
@@ -120,28 +128,41 @@
         <section class="mt-2 w-full p-6">
             <div
                 class="container mx-auto text-xs text-neutral-400 flex justify-center items-center flex-wrap gap-x-4 gap-y-2">
-                <a href="#">Meta</a>
-                <a href="#">About</a>
-                <a href="#">Blog</a>
-                <a href="#">Jobs</a>
-                <a href="#">Help</a>
-                <a href="#">API</a>
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Top Accounts</a>
-                <a href="#">Hashtags</a>
-                <a href="#">Locations</a>
-                <a href="#">Instagram Lite</a>
-                <a href="#">Contact Uploading & Non-User</a>
+                <a href="#" class="transition-all hover:text-neutral-600">Meta</a>
+                <a href="#" class="transition-all hover:text-neutral-600">About</a>
+                <a href="#" class="transition-all hover:text-neutral-600">Blog</a>
+                <a href="#" class="transition-all hover:text-neutral-600">Jobs</a>
+                <a href="#" class="transition-all hover:text-neutral-600">Help</a>
+                <a href="#" class="transition-all hover:text-neutral-600">API</a>
+                <a href="#" class="transition-all hover:text-neutral-600">Privacy</a>
+                <a href="#" class="transition-all hover:text-neutral-600">Terms</a>
+                <a href="#" class="transition-all hover:text-neutral-600">Top Accounts</a>
+                <a href="#" class="transition-all hover:text-neutral-600">Hashtags</a>
+                <a href="#" class="transition-all hover:text-neutral-600">Locations</a>
+                <a href="#" class="transition-all hover:text-neutral-600">Instagram Lite</a>
+                <a href="#" class="transition-all hover:text-neutral-600">Contact Uploading & Non-User</a>
             </div>
 
             <div class="container mx-auto text-xs w-[85%] text-neutral-400 py-2 flex justify-center items-center">
-                <select name="language" id="language" class="border-none bg-inherit text-sm px-1 focus:ring-0">
+                <select name="language" id="language" onchange="location = this.value;"
+                    class="border-none bg-inherit text-sm px-1 focus:ring-0 transition-all hover:text-neutral-600 cursor-pointer">
                     <i class="fas fa-chevron-down"></i>
 
-                    <option value="English" selected>English</option>
-                    <option value="Українська">Українська</option>
-                    <option value="Polski">Polski</option>
+                    <option value="English" selected>
+                        <a href="#">
+                            English
+                        </a>
+                    </option>
+                    <option value="Українська">
+                        <a href="#">
+                            Українська
+                        </a>
+                    </option>
+                    <option value="Polski">
+                        <a href="#">
+                            Polski
+                        </a>
+                    </option>
                 </select>
 
                 <h2>
